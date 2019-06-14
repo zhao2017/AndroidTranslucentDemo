@@ -1,4 +1,4 @@
-package com.lufax.translucentdemo.ui;
+package com.lufax.translucentdemo.ui.activity;
 
 import android.os.Bundle;
 
@@ -9,5 +9,6 @@ public class SeaActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
     }
 }
