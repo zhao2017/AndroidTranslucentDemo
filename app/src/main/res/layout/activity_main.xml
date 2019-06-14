@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/color_cccccc">
 
     <ImageView
         android:id="@+id/iv_img"
@@ -10,5 +11,11 @@
         android:scaleType="centerCrop"
         android:src="@mipmap/timg" />
 
+
+    <include
+        layout="@layout/layout_nav_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
