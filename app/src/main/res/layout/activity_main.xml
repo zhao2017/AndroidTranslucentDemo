@@ -9,13 +9,19 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="centerCrop"
-        android:src="@mipmap/timg" />
+        android:src="@mipmap/timg"
+        android:visibility="gone" />
 
+    <com.lufax.translucentdemo.viewpager.NoScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/nav_below" />
 
     <include
+        android:id="@+id/nav_below"
         layout="@layout/layout_nav_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" />
-
 </RelativeLayout>
